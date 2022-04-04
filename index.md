@@ -41,8 +41,8 @@
       </div>
       
       <script>
-        const X_PIXELS = 37.5
-        const Y_PIXELS = 37.5
+        const X_PIXELS = 50
+        const Y_PIXELS = 50
         const X_OFFSET = 25
         const Y_OFFSET = 25
         const X_IN_PLACE = 0
@@ -71,7 +71,7 @@
         const background = document.getElementById("canvas_background")
         const bg = background.getContext("2d")
         
-        const  foreground = document.getElementById("canvas_foreground")
+        const foreground = document.getElementById("canvas_foreground")
         const fg = foreground.getContext("2d")
 
         const img = new Image()
@@ -82,7 +82,7 @@
           bg.canvas.width  = w + X_OFFSET
           bg.canvas.height = h + 2 * Y_OFFSET
 
-          fg.canvas.width  = bg.canvas.width
+          fg.canvas.width = bg.canvas.width
           fg.canvas.height = bg.canvas.height
           bg.imageSmoothingEnabled = false
           bg.drawImage(img, 0, 0, img.width, img.height, 0, Y_OFFSET, w, h)
@@ -138,8 +138,7 @@
           return;
         }
         
-        let url =`https://www.reddit.com/r/place/?cx=${x}&cy=${y}&px=20`
-        window.open(url, "_blank").focus()
+        window.open(`https://www.reddit.com/r/place/?cx=${x}&cy=${y}&px=20`, "_blank").focus()
       })
     </script>
   </body>
