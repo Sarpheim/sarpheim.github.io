@@ -105,7 +105,7 @@
         
         fg.clearRect(0, 0, fg.canvas.width, fg.canvas.height)
         
-        if (y < 1839 || x < 299 || y > 324 || x > 1864) {
+        if (y < 1839 || x < 299 || y > 1864 || x > 324) {
           return;
         }
         drawText(`(${(x + X_IN_PLACE)},${(y + Y_IN_PLACE)})`, p.x - 40, p.y - 30)
