@@ -16,7 +16,7 @@
           left: 0;
         }
         h1 {
-          font-size: 1.25rem;
+          font-size: 1.5rem;
           color: #000000;
           font: 700 1.25rem/2.125rem "Montserrat", sans-serif;
           margin-top: 0px;
@@ -33,8 +33,8 @@
     </head>
     <body>
       <h1>Colors</h1>
-      <h2>Black</h2>
-      <h2>Light Blue</h2>
+      <h2>- Black</h2>
+      <h2>- Light Blue</h2>
       <div id="container" class="container">
         <canvas id="canvas_background" width="25" height="25"></canvas>
         <canvas id="canvas_foreground" width="25" height="25"></canvas>
