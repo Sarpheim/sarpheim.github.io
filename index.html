@@ -1,8 +1,8 @@
 <html lang="tr">
   <head>
     <meta charset="UTF-8">
-      <link rel="icon" href="http://www.sarpheim.tk/images/sarpheim/Sarpheim_Logo.png">
-      <title>Sarpheim Reddit r/place</title>
+      <link rel="icon" href="http://www.sarpheim.xyz/images/sarpheim/Sarpheim_Logo.png">
+      <title>Sarpheim Minecraft Pixel Art</title>
       <style>
         body {
           background-color: #AAAAAA;
@@ -36,17 +36,17 @@
       <h2>- Black</h2>
       <h2>- Light Blue</h2>
       <div id="container" class="container">
-        <canvas id="canvas_background" width="25" height="25"></canvas>
-        <canvas id="canvas_foreground" width="25" height="25"></canvas>
+        <canvas id="canvas_background" width="107" height="107"></canvas>
+        <canvas id="canvas_foreground" width="107" height="107"></canvas>
       </div>
       
       <script>
-        const X_PIXELS = 50
-        const Y_PIXELS = 50
-        const X_OFFSET = 25
-        const Y_OFFSET = 25
-        const X_IN_PLACE = 0
-        const Y_IN_PLACE = 0
+        const X_PIXELS = 15
+        const Y_PIXELS = 15
+        const X_OFFSET = 107
+        const Y_OFFSET = 107
+        const X_IN_PLACE = 98
+        const Y_IN_PLACE = -269
 
         function getMousePos(canvas, evt) {
           const rect = canvas.getBoundingClientRect()
@@ -88,11 +88,11 @@
           bg.drawImage(img, 0, 0, img.width, img.height, 0, Y_OFFSET, w, h)
           drawGrid(0, Y_OFFSET, w, h + Y_OFFSET, bg)
       }
-      img.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAK5JREFUSEvtlUkOwCAIReUSvf/5vISNphhqmBzY2a2FJ5+PQMqlpOAPGuSBOEwu6UL88k7JlQ1/SH11QywA1sWBRAgmrUEjYEzkOOfdJUEUSXqTmEv4IdYs0YtRW0zLpYGOQYwGt+MluWqg5i5MulXJOHYckLpwuRJuviksDEJl3IJwjcSqjlUiuYmb8unGW46iPXIMqb60rIfRAnyXvZsxaDP60/7/7K/wagJn3AuwRMDCPDsaRwAAAABJRU5ErkJggg=="
+      img.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGwAAABsCAIAAAAABMCaAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKM2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDggNzkuMTY0MDM2LCAyMDE5LzA4LzEzLTAxOjA2OjU3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIwLTExLTEwVDIxOjQ3OjUwKzAzOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIyLTA2LTExVDIyOjE1OjE5KzAzOjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMi0wNi0xMVQyMjoxNToxOSswMzowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6YzE1MTI4YTktZDRjYy0wODQ3LThhZTktM2Q4YTg4YmM3ZTBlIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6MTllYjA1NzEtNWIyZi0zYjQ0LWFmNTctYjJiZTZkZGU2ODg4IiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6N0I1NUQ0NUM4MjIzRUIxMUFBNzY4OEFFMUIxREFBRDEiIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6N0I1NUQ0NUM4MjIzRUIxMUFBNzY4OEFFMUIxREFBRDEiIHN0RXZ0OndoZW49IjIwMjAtMTEtMTBUMjE6NDc6NTArMDM6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDowQURENjA2NzhCMjNFQjExQkJENUIyOTcwOEE2MkRDNyIgc3RFdnQ6d2hlbj0iMjAyMC0xMS0xMFQyMjo1NDowNCswMzowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjhhZTE0MGYyLTlhOWYtNTg0Zi1iZjYyLTlhNmMyNDE3NDJjMiIgc3RFdnQ6d2hlbj0iMjAyMS0wNC0xMVQyMzo0MzozNCswMzowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjb252ZXJ0ZWQiIHN0RXZ0OnBhcmFtZXRlcnM9ImZyb20gYXBwbGljYXRpb24vdm5kLmFkb2JlLnBob3Rvc2hvcCB0byBpbWFnZS9wbmciLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImRlcml2ZWQiIHN0RXZ0OnBhcmFtZXRlcnM9ImNvbnZlcnRlZCBmcm9tIGFwcGxpY2F0aW9uL3ZuZC5hZG9iZS5waG90b3Nob3AgdG8gaW1hZ2UvcG5nIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo4MDU2MzYyMi03MzFkLTEyNDUtYTIyOS0yZjMwOThiNmRhMGEiIHN0RXZ0OndoZW49IjIwMjEtMDQtMTFUMjM6NDM6MzQrMDM6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4wIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6YzE1MTI4YTktZDRjYy0wODQ3LThhZTktM2Q4YTg4YmM3ZTBlIiBzdEV2dDp3aGVuPSIyMDIyLTA2LTExVDIyOjE1OjE5KzAzOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjEuMCAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjhhZTE0MGYyLTlhOWYtNTg0Zi1iZjYyLTlhNmMyNDE3NDJjMiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3QjU1RDQ1QzgyMjNFQjExQUE3Njg4QUUxQjFEQUFEMSIgc3RSZWY6b3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTVENDVDODIyM0VCMTFBQTc2ODhBRTFCMURBQUQxIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+aqvVZwAACOFJREFUeJztnF1TGzkWhh+pv2wc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"
         function drawText(text, x, y){
           fg.font = "30px Sans-serif"
           fg.strokeStyle = "black"
-          fg.lineWidth = 8
+          fg.lineWidth = 2
           fg.strokeText(text, x, y)
           fg.fillStyle = "white"
           fg.fillText(text, x, y)
@@ -105,12 +105,12 @@
         
         fg.clearRect(0, 0, fg.canvas.width, fg.canvas.height)
         
-        if (y < 0 || x < 0 || y > 24 || x > 24) {
+        if (y < 0 || x < 0 || y > 107 || x > 107) {
           return;
         }
-        drawText(`(${(x + X_IN_PLACE)},${(y + Y_IN_PLACE)})`, p.x - 40, p.y - 30)
+        drawText(`(${(x + X_IN_PLACE)}, 65, ${(y + Y_IN_PLACE)})`, p.x - 40, p.y - 30)
         
-        fg.lineWidth = 5
+        fg.lineWidth = 2
         let circle_x = x * X_PIXELS + X_PIXELS / 2
         let circle_y = y * Y_PIXELS + Y_OFFSET + Y_PIXELS / 2
         fg.beginPath()
@@ -132,13 +132,14 @@
       foreground.addEventListener("click", (event) => {
         let p = getMousePos(foreground, event)
         let x = Math.floor((p.x) / X_PIXELS) + X_IN_PLACE
-        let y = Math.floor((p.y) / Y_PIXELS) + Y_IN_PLACE
+        let y = Math.floor((p.y) / Y_PIXELS - 7) + Y_IN_PLACE
 
         if (y < Y_IN_PLACE || x < X_IN_PLACE) {
           return;
         }
         
-        window.open(`https://www.reddit.com/r/place/?cx=${x}&cy=${y}&px=20`, "_blank").focus()
+        navigator.clipboard.writeText(`/fill ${x} 65 ${y} ${x} 65 ${y} minecraft:light_blue_wool`)
+        alert("Kordinatlar kopyalandı.")
       })
     </script>
   </body>
